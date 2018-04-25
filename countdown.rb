@@ -2,7 +2,7 @@
 integer = 10
 
 def midnight?(integer)
-  until integer = 0
+  until integer == 0
     integer - 1
     puts "#{integer} SECOND(S)!"
   end
